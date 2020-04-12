@@ -26,14 +26,15 @@ flex-grow: 1;
 }
 main{
     background-image: url(http://virtuellife.v.i.pic.centerblog.net/o/a5a83bf0.png);
-    height: 890px;
+   
     color:springgreen ;
     text-shadow: 1px 1px 2px black, 0 0 1em white;
-    text-align: justify;
-    text-align: center;
+    
+    
     display: flex;
     flex-wrap: wrap;
-
+background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, 0.521);
 }
 #img{
     background-color: steelblue;
