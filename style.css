@@ -1,68 +1,62 @@
-html{
-  
-    background-image: url(maxresdefault_live.jpg);
-  color: aliceblue;
+*{
+    padding: 0%;
+    margin: 0%;
 }
 
-#container{
- 
-    padding: 5px;
+header{
+    background-image: url(https://s1.1zoom.me/big0/705/273111-blackangel.jpg);
+
+ justify-content: space-around;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.panel{
+    background-image: url(https://avatars.mds.yandex.net/get-pdb/2885306/2f870555-70c0-4780-a7ab-084b0b5d9be8/s1200?webp=false);
+font-size: 1.3em;
+margin: 10px 15px 10px 15px;
+ border-radius: 5px;
+color: springgreen;
+box-shadow: 1px 1px 10px lawngreen ;
+}
+header>a{
+text-decoration: none;
+text-align: center;
+flex-grow: 1;
+}
+main{
+    background-image: url(http://virtuellife.v.i.pic.centerblog.net/o/a5a83bf0.png);
+    height: 890px;
+    color:springgreen ;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+    text-align: justify;
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
-    
-}
-.menu{
-    background-color: darkred;
-   border-radius: 15px;
-width: 30%;
-text-align: center;
-margin-left: 3%;
 
 }
-#nachalo{
+#img{
+    background-color: steelblue;
+
+    flex-basis: 50%;
+flex-wrap: wrap;
+text-align: justify;
+text-align: center;
+}
+footer{
+    background-color: springgreen;
+  text-align: center;
+    text-shadow: 1px 1px 2px mediumpurple, 0 0 1em white;
+    flex-wrap: wrap;
+    text-align: justify;
     text-align: center;
 }
-.text{
-    text-align: center;
-}
-#pc{
-    height: 600px;
+.shop{
+    height: 80px;
    
-}
-.foto{
-    height: 300px; 
-}
-#xz{
-    height: 150px;
-    background-color: darkred;
-    width: 150px;
-}
-#xc{
-    background-color: darkslateblue;
-    width: 15%;
-    height: 150px;
-}
-.pc{
-    
-    border: 0px;
-   border-radius: 15px;
-width: 18%;
-height: 240px;
-text-align: center;
-margin-left: 12%;
-margin-top: 5%;
-}
-#pc1{
-background-image: url(250b039794.jpg);
-
-}
-#pc2{
-    background-image: url(9849dc309b.jpg);
-
+    display: flex;
+    flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 1.3em;
 }
 
-#pc3{
-background-image: url(f68a9f4344.jpg);
-
-
-}
