@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    background-image: url(https://s1.1zoom.me/big0/705/273111-blackangel.jpg);
+
+ justify-content: space-around;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+.panel{
+    background-image: url(https://avatars.mds.yandex.net/get-pdb/2885306/2f870555-70c0-4780-a7ab-084b0b5d9be8/s1200?webp=false);
+font-size: 1.3em;
+margin: 10px 15px 10px 15px;
+ border-radius: 5px;
+color: springgreen;
+box-shadow: 1px 1px 10px lawngreen ;
+}
+header>a{
+text-decoration: none;
+text-align: center;
+flex-grow: 1;
+}
+main{
+    background-image: url(http://virtuellife.v.i.pic.centerblog.net/o/a5a83bf0.png);
+   
+    color:springgreen ;
+    text-shadow: 1px 1px 2px black, 0 0 1em white;
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, 0.521);
+}
+#img{
+    background-color: steelblue;
+
+    flex-basis: 50%;
+flex-wrap: wrap;
+text-align: justify;
+text-align: center;
+}
+footer{
+    background-color: springgreen;
+  text-align: center;
+    text-shadow: 1px 1px 2px mediumpurple, 0 0 1em white;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-align: center;
+}
+.shop{
+    background-image: url(https://i.ytimg.com/vi/AL-Tzdcry_Y/maxresdefault.jpg);
+    font-size: 1.3em;
+    margin: 10px 15px 10px 15px;
+     border-radius: 5px;
+    color: springgreen;
+    box-shadow: 1px 1px 10px lawngreen ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+text-align: center;
+flex-grow: 2;
+
+  
+}
+
