@@ -67,4 +67,81 @@ flex-grow: 2;
 
   
 }
+#Glavnoe{
+    color: yellowgreen;
+    text-align: center;
+    background-image: url(http://virtuellife.v.i.pic.centerblog.net/o/a5a83bf0.png);
+    text-align: center;
+}
+#Glavnoe1{
+    color: yellowgreen;
+    text-align: center;
+  margin-left: 37% ;
+}
 
+.textofPC{
+color: white;
+}
+#ccylka{
+    color: white;
+    
+}
+
+#cont {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+}
+
+.center {
+    flex-basis: 40%;
+    margin: 10px;
+
+}
+
+.img {
+    width: 100%;
+    margin-top: 5px;
+    transition: 2s;
+   border-radius: 10%;
+   box-shadow: 1px 1px 10px lawngreen ;
+}
+
+#text {
+    font-size: 1.3em;
+}
+
+#podpis{
+    margin-left: 15%;
+    color: black;
+}
+#ds{
+    display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+#hh{
+    width: 100%;
+    border-radius: 5%;
+}
+#hh:hover{
+  width: 120%;
+      margin-right: 15px;
+      transition: 2s;
+      
+}
+.procall{
+    color: brown;
+}
+#pc2{
+  margin-top: 10%;
+  display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+.Cena{
+    color: cadetblue;
+}
