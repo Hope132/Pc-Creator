@@ -30,7 +30,7 @@ main{
     color:springgreen ;
     text-shadow: 1px 1px 2px black, 0 0 1em white;
     
-    
+    text-align: justify;
     display: flex;
     flex-wrap: wrap;
 background-blend-mode: multiply;
@@ -126,12 +126,11 @@ justify-content: space-around;
 #hh{
     width: 100%;
     border-radius: 5%;
+    transition: 2s;
 }
 #hh:hover{
   width: 120%;
       margin-right: 15px;
-      transition: 2s;
-      
 }
 .procall{
     color: brown;
