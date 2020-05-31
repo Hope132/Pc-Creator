@@ -2,7 +2,6 @@
     padding: 0%;
     margin: 0%;
 }
-
 header{
     background-image: url(https://s1.1zoom.me/big0/705/273111-blackangel.jpg);
 
@@ -51,6 +50,28 @@ footer{
     flex-wrap: wrap;
     text-align: justify;
     text-align: center;
+}
+#information {
+    position: fixed;
+
+}
+.summary{
+    cursor: pointer;
+}
+
+
+#allinfo {
+    margin-left: 16%;
+    font-size: 1.3em;
+}
+
+#about {
+    margin-top: 10%;
+}
+
+.foto {
+    width: 200px;
+    border-radius: 5%;
 }
 .shop{
     background-image: url(https://i.ytimg.com/vi/AL-Tzdcry_Y/maxresdefault.jpg);
